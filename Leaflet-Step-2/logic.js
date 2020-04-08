@@ -120,7 +120,7 @@ function makeMap(earthquakes, faultlines) {
     limits.forEach(function(limit, index) {
 
       var colors = ["#c4f069", "#e5f16a", "#efdb67", "#eabb61", "#e5a975", "#e0736f"]
-      labels.push(`<li style=\"background-color: ${colors[index]};\"><span class=\"legendText\">${limits[index]}</span></li>`);
+      labels.push(`<li><span style=\"background-color: ${colors[index]};\" class="box"> </span><span class=\"legendText\">${limits[index]}</span></li>`);
     }); // TODO: Get numbers to appear alongside color boxes
 
     div.innerHTML += "<ul>" + labels.join("") + "</ul>";

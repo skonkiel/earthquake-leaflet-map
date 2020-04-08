@@ -30,12 +30,14 @@ html {
   list-style-type: none;
 }
 
-.legend li {
-  width: 30px;
-  height: 22px;
+.legend .box {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
 }
 
 .legend li .legendText {
   margin-left: 5px;
+  margin-bottom: 10px;
 }
 
